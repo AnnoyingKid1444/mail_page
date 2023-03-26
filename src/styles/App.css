@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap');
+
+* {
+font-family: 'Montserrat';
+font-style: normal;
+box-sizing: border-box;
+}
+/* #root {
+    display: flex;
+    justify-content: center;
+} */
+svg path {
+    stroke: inherit;
+ }
+.topContent {
+    display: flex;
+    align-items: center;
+}
+.uniLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+    margin-right: 23px;
+}
+.topBar {
+    display: flex;
+    padding: 30px;
+    background-color: #fff;
+}
+.searchBar {
+    width: 500px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.selectors {
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+}
+
+.languageChanger{
+    margin-right: 50px;
+}
+.langIC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96px;
+    height: 40px;
+    border: 1px solid rgba(0, 149, 246, 0.2);
+    border-radius: 20px;
+    color: #0095F6;
+}
+.LangList {
+    position: absolute;
+    width: 96px;
+}
+.LangList p:hover {
+    color: #0095F6;
+}
+.langToggler span {
+    padding-left: 5px;
+    padding-right: 5px
+}
+.Down {
+    stroke: #0095F6;
+}
+.notification {
+    stroke: #0095F6;
+}
+.avatar {
+    margin-bottom: 84px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.avatarPlaceholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileName {
+    justify-content: center;
+    text-align: center;
+}
+.Page-wrapper {
+    display: flex;
+    height: 1100px;
+}
+.Page{
+    display: flex;
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgba(0, 149, 246, 0.05);
+ }
+ .NavBar {
+    padding-left: 90px;
+ }
+ .NavBar div{
+    color: black;
+    stroke: black;
+    width: 300px;
+ }
+ .navbarItem{
+    display: flex;
+    align-items:center;
+ }
+ .logout{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 1100px;
+ }
+ .navbarItem:hover, .myProgress:hover, .logout:hover{
+    color: #0095F6;
+    stroke: #0095F6;
+ }
+ .NavBar span{
+    padding-left: 14px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+ }
+ .myProgress{
+    display: flex;
+    align-items: center;
+ }
+ .myProgress span{
+    padding-right: 82px;
+ }
+.progressContent{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+}
+.progressContent p{
+    width: 275px;
+    position: relative;
+    left: 25px;
+    margin: 0;
+    padding-left: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.progressContent p:hover{
+    background-color: #0095F6;
+    color: #FFFFFF;
+    border-radius: 8px 0px 0px 8px;
+ }
+ .MainTab{
+    display: flex;
+ }
+ .courseList, .semestrList, li:last-child {
+     border-top-right-radius: 10px;
+ }
+ .courseList, .semestrList, li:first-child {
+     border-top-left-radius: 10px;
+ }
+ .courseList {
+     display: flex;
+     margin: 0;
+     padding-left: 0;
+     position: absolute;
+ }
+ .courseTab {
+     min-Width: 160px;
+     min-Height: 32px;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 29px;
+     background-color: #0095F6;
+     padding: 1px 32px 1px 32px;
+     border: none;
+     color: #FFFFFF;
+     list-style: none;
+ }
+ .courseTab:focus{
+     background-color: #FFFFFF;
+     color: #0095F6;
+     box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.15);
+     border: none;
+ }
+ .SemestrTab {
+     background-color: #0095F6;
+     padding: 1px 32px 1px 32px;
+     color: #FFFFFF;
+     max-Width: 160px;
+     max-Height: 32px;
+     list-style: none;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+ .semestrList { 
+     display: flex;
+     align-items: center;
+     transform:rotate(-90deg);
+     min-Width: 320px;
+     min-height: 32px;
+     position: absolute;
+     top: 380px;
+     left: 284px;
+ }
+ .SemestrTab:focus{
+     background-color: #FFFFFF;
+     color: #0095F6;
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+     border: none;
+ }
+ .TableGrades{
+    padding-top: 30px;
+ }
+ .tabContent {
+ background: #FFFFFF;
+ box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+ border-radius: 0px 16px 16px 16px;
+ width: 1408px;
+ height: 1000px;
+ }
