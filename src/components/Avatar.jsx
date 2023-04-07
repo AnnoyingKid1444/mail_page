@@ -1,13 +1,30 @@
-import AvatarImg from '../img/1 lvl.png'
+import AvatarImg from '../img/93f5cee1fc7a96d80a41c73bb6c8d837.jpg'
+import "../styles/Avatar.css"
 
 export default function Avatar() {
     return(
         <div className="avatar">
-          <div className="">
-            <img src={AvatarImg} alt="" />
+
+          <div className="AvatarImg">
+
+            <div className="AvatarBorder">
+
+              <div className="ConnectionStatus">
+                <div className="ConnectionSign">
+                </div>
+              </div>
+
+            <img src={AvatarImg} alt="Avatarimg"
+                height={'150px'}
+                width={'150px'}
+                style={{ borderRadius: '50%'}}
+            />
+            </div>
+
           </div>
+
         <div className="profileName">
-      <h2>Surname Name</h2>
+      <p>Surname Name</p>
       <p>Student</p>
         </div>
     </div>

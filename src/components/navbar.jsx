@@ -7,6 +7,7 @@ import {ReactComponent as Tickets} from '../svg/Tickets.svg';
 import {ReactComponent as Mail} from '../svg/Mail.svg';
 import {ReactComponent as Services} from '../svg/Services.svg';
 import Dropdown from './drobar';
+import "../styles/NavBar.css"
 
 
 export default function Navbar() {

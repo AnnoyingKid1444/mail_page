@@ -1,0 +1,73 @@
+ /* Tabs */
+
+ .MainTab{
+    display: flex;
+ }
+
+ .courseList {
+    width: 657px;
+     display: flex;
+     position: absolute;
+ }
+
+ .courseTab {
+    Height: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #0095F6;
+    padding: 1px 32px 1px 32px;
+    color: var(--body_color);
+    list-style: none;
+}
+
+.semestrList { 
+    display: flex;
+    align-items: center;
+    transform:rotate(-90deg);
+    min-Width: 320px;
+    min-height: 32px;
+    position: absolute;
+    top: 380px;
+    left: 276px;
+}
+
+.SemestrTab {
+    background-color: #0095F6;
+    color: var(--body_color);
+    Width: 160px;
+    Height: 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active-tabs{
+    background-color: var(--body_background);
+    color: #0095F6;
+    box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.15);
+}
+
+ .courseList, .semestrList, li:last-child {
+     border-top-right-radius: 10px;
+ }
+ .courseList, .semestrList, li:first-child {
+     border-top-left-radius: 10px;
+ }
+
+ .tabContent {
+ background: var(--body_background);
+ box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+ border-radius: 0px 16px 16px 16px;
+ width: 1421px;
+ height: 1008px;
+ display: none;
+ }
+
+ .active-content {
+    display: block;
+}

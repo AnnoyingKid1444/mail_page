@@ -1,0 +1,29 @@
+/* SearchBar */
+
+.topBar {
+    display: flex;
+    padding: 30px;
+    background-color: var(--body_background);
+}
+
+.topBar svg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 56rem;
+    top: 2.5rem;
+    stroke: var(--header_color);;
+}
+
+.searchBar {
+    background-color: var(--header_background);
+    width: 500px;
+    height: 37px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.searchBar::placeholder{
+    color: var(--header_color);
+}

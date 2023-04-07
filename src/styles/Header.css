@@ -1,0 +1,29 @@
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: var(--body_background);
+}
+
+.selectors {
+    display: flex;
+    align-items: center;
+    margin-left: 560px;
+}
+
+.uniLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38px;
+    margin-right: 23px;
+}
+
+.ThemeChanger {
+    padding-right: 50px;
+}
+
+.notification {
+    stroke: #0095F6;
+}

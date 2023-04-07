@@ -1,0 +1,80 @@
+/* Avatar */
+
+.avatar {
+    margin-bottom: 84px;
+}
+
+.AvatarImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AvatarBorder {
+    border-radius: 50%;
+    padding: 30px;
+    border: #bababa solid 2px;
+    border-bottom-color: #0095F6 ;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+}
+
+.AvatarBorder::before {
+    content: "1";
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 14.4rem;
+    left: 7.9rem;
+    border-radius: 50%;
+    background-color: #0095F6;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.ConnectionStatus {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 13rem;
+    left: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--body_background);
+}
+.ConnectionSign {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #00FF00;
+}
+
+.ConnectionSign::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.profileName {
+    color: var(--body_color2);
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.profileName p {
+    margin: 10px;
+}

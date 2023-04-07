@@ -1,8 +1,13 @@
+.TableGrades{
+  padding-top: 30px;
+}
+
 table {
     border-collapse: separate;
     border-spacing: 0;
     margin-top: 30px;
     margin-left: 30px;
+    color: var(--body_color2);
 }
 .tableHead {
 font-weight: 500;

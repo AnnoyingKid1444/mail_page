@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {ReactComponent as UnitedKingdom} from '../svg/United Kingdom.svg';
 import {ReactComponent as Down} from '../svg/Down.svg';
+import "../styles/LanguageChanger.css";
 
 export default function LangToggler() {
 const [isActive, setIsActive] = useState(false);
@@ -14,11 +15,11 @@ return (
 
     </div>
     {isActive && (
-        <div className="LangList">
-            <p>ENG</p>
-            <p>RUS</p>
-            <p>UZB</p>
-        </div>
+        <ul className="LangList">
+            <li>ENG</li>
+            <li>RUS</li>
+            <li>UZB</li>
+        </ul>
     )}
 </div>
 );

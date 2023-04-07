@@ -14,7 +14,7 @@ let res = Grades.map(function(item) {
        <td>{item.credit}</td>
        <td>{item.score}</td>
        <td>{item.grade}</td>
-    </tr>;
+    </tr>; 
  });
 
  export default res
